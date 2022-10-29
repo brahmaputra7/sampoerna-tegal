@@ -6,10 +6,10 @@
             <v-col class="d-flex align-center" cols="12" md="6" >
               <div class="d-flex align-center" style="flex-flow:column">
                 <div style="text-align:center;color:#131545;font-size:5em;line-height: 1;font-weight: 900;"  >ASO TEGAL</div>
-                <div  class="d-flex" style="font-size:1.5em;line-height: 1">
+                <div  class="d-flex" style="font-size:1.2em;line-height: 1">
                   <div></div>
                   <div style="background-color:#000;border:3px solid #000; " class="white--text pa-2">GATHERING</div>
-                  <div style="background-color:#fff;border:3px solid #000;" class="black--text pa-2"> 5-6 November 2022</div>
+                  <div style="background-color:#fff;border:3px solid #000; font-size:0.8em" class="d-flex align-center justify-center black--text pa-2"> 5-6 November 2022</div>
                 </div>
                 <div class="mt-3"><v-chip class="primary" style="font-weight:bold"><v-icon small class="white--text">mdi-map-marker</v-icon>GRAND DIAN - GUCI</v-chip></div>
               </div>
@@ -162,7 +162,7 @@ export default {
           icon: 'mdi-car-outline',
           title:'(08.00) Berangkat',
           img:'/img/run1.jpg',
-          text:'<table><tr><td>Seragam</td><td class="pr-2" ">:</td><td style="font-weight:bold"> jersey outbond</td> </tr><tr><td >Tegal</td><td>:</td style="font-weight:bold"> <td style="font-weight:bold">tegal</tr><tr></td><br/><td>DPC</td><td>:</td> <td style="font-weight:bold">Pekalongan</td></tr></table>'
+          text:'<table><tr><td>Seragam</td><td class="pr-2" ">:</td><td style="font-weight:bold"> jersey outbound</td> </tr><tr><td >Tegal</td><td>:</td style="font-weight:bold"> <td style="font-weight:bold">tegal</tr><tr></td><br/><td>DPC</td><td>:</td> <td style="font-weight:bold">Pekalongan</td></tr></table>'
         },
         {
           color: 'purple darken-1',
@@ -173,21 +173,21 @@ export default {
           color: 'green lighten-1',
           icon: 'mdi-airballoon',
           img:'/img/run3.jpg',
-          title:'(10.00 - 12.00) Outbond',
+          title:'(10.00 - 12.00) Outbound',
           text:'Tempat: <b>Hotel Grand Dian - Guci</b>'
         },
         {
           color: 'blue lighten-1',
           icon: 'mdi-food',
           img:'/img/run4.jpg',
-          title:'(12.00 - 14.00) Lunch (ISOMA)',
+          title:'(12.00 - 14.00) Lunch (ISHOMA)',
           text:'Tempat: <b>Hall Antasena</b>'
         },
         {
           color: 'brown lighten-1',
           icon: 'mdi-coffee',
           img:'/img/run5.jpg',
-          title:'(14.00 - 17.00) Coffe Break',
+          title:'(14.00 - 17.00) Coffee Break',
           text:'Tempat: <b>Pool Grand Dian</b>'
         },
         {
