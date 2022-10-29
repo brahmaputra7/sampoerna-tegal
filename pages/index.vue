@@ -9,9 +9,9 @@
                 <div  class="d-flex" style="font-size:1.5em;line-height: 1">
                   <div></div>
                   <div style="background-color:#000;border:3px solid #000; " class="white--text pa-2">GATHERING</div>
-                  <div style="background-color:#fff;border:3px solid #000;" class="black--text pa-2">2022</div>
+                  <div style="background-color:#fff;border:3px solid #000;" class="black--text pa-2"> 5-6 November 2022</div>
                 </div>
-                <div class="mt-3"><v-chip class="primary" style="font-weight:bold"><v-icon small class="white--text">mdi-map-marker</v-icon>GRAN DIAN - GUCI</v-chip></div>
+                <div class="mt-3"><v-chip class="primary" style="font-weight:bold"><v-icon small class="white--text">mdi-map-marker</v-icon>GRAND DIAN - GUCI</v-chip></div>
               </div>
             </v-col>
             <v-col cols="12" md="6">
@@ -192,7 +192,7 @@ export default {
         },
         {
           color: 'pink lighten-1',
-          icon: 'mdi-account-networkn',
+          icon: 'mdi-account-network',
           title:'(17.00 - 19.00) Prepare Gala Dinner',
         },
         {
