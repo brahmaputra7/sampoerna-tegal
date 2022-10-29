@@ -71,13 +71,6 @@
                                 <img v-if="item.img" :src="item.img" width="250px"/>
                               </div>
                               <div v-html="item.text"></div>
-                              <v-btn
-                                :color="item.color"
-                                class="mx-0 mt-5"
-                                outlined
-                              >
-                                Detail
-                              </v-btn>
                             </v-card-text>
                           </v-card>
                         </v-timeline-item>
