@@ -151,7 +151,6 @@
           <div class="mt-3"><b>Sesi 1:</b> 20.00 - 20.15</div>
           <div><b>Sesi 2:</b> 20.30 - 20.45</div>
           <div><b>Sesi 3:</b> 21.15 - 21.30</div>
-          <div class="mt-3"><i>Doorprize diambil secara acak oleh peserta sistem arisan/gulungan nama</i></div>
         </v-card>
       </v-dialog>
 
