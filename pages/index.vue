@@ -64,7 +64,11 @@
                             dark
                           >
                             <v-card-title class="text-h6">
-                              {{item.title}}
+                              <div v-if="$vuetify.breakpoints.mobile" style="font-size:0.8em">
+                              </div>
+                              <div v-else>
+                                {{item.title}}
+                              </div>
                             </v-card-title>
                             <v-card-text class="white text--primary pt-5" v-if="item.text">
                               <div>
@@ -139,7 +143,7 @@
           <b>Entertainment</b>
           <img src="/img/run8.jpg" style="width:100%;border-radius:20px"/>
           <div>1. Biduan Dangdut</div>
-          <div>1. Foya Koya</div>
+          <div>2. Foya Koya</div>
           <v-divider class="my-5"></v-divider>
           <b>Doorprize</b>
           <div class="mt-3"><i>Berlangsung setelah gala dinner</i></div>
@@ -234,7 +238,7 @@ export default {
           detail:'entertainment',
           tag:'Item ala 90 an (colorful)',
           img:'/img/hib1.jpg',
-          text:'<b>Hiburan</b><br/>1. Biduan Dangdut dan Pop<br/>2. Foya Koya<br/><b>Doorprize</b><br/>iQos, Huawei Band, Anker Soundcor, Voucher MAP<br/>Pengumuman pemenang outbound'
+          text:'<b>Hiburan</b><br/>1. Biduan Dangdut dan Pop<br/>2. Foya Koya<br/><b>Doorprize</b><br/>iQos, Huawei Band, Anker Soundcor, Voucher MAP<br/><b>Pengumuman pemenang outbound</b>'
         },
         {
           color: 'grey darken-1',
