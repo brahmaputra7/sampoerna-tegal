@@ -70,7 +70,17 @@
                               <div>
                                 <img v-if="item.img" :src="item.img" width="250px"/>
                               </div>
+                              <v-chip v-if="item.tag" class="purple mb-3 mt-3"><b>{{item.tag}}</b></v-chip>
                               <div v-html="item.text"></div>
+                              <v-btn
+                                  v-if="item.detail"
+                                  :color="item.color"
+                                  class="mx-0 mt-3"
+                                  @click="entDetail = true"
+                                  outlined
+                                >
+                                  Detail
+                                </v-btn>
                             </v-card-text>
                           </v-card>
                         </v-timeline-item>
@@ -114,7 +124,6 @@
                                 <img v-if="item.img" :src="item.img" width="250px"/>
                               </div>
                               <div v-html="item.text"></div>
-                    
                             </v-card-text>
                           </v-card>
                         </v-timeline-item>
@@ -124,6 +133,22 @@
             </v-container>
         </div>
       </div>
+
+      <v-dialog v-model="entDetail" width="500px">
+        <v-card class="pa-5">
+          <b>Entertainment</b>
+          <img src="/img/run8.jpg" style="width:100%;border-radius:20px"/>
+          <div>1. Biduan Dangdut</div>
+          <div>1. Foya Koya</div>
+          <v-divider class="my-5"></v-divider>
+          <b>Doorprize</b>
+          <div class="mt-3"><i>Berlangsung setelah gala dinner</i></div>
+          <div class="mt-3"><b>Sesi 1:</b> 20.00 - 20.15</div>
+          <div><b>Sesi 2:</b> 20.30 - 20.45</div>
+          <div><b>Sesi 3:</b> 21.15 - 21.30</div>
+          <div class="mt-3"><i>Doorprize diambil secara acak oleh peserta sistem arisan/gulungan nama</i></div>
+        </v-card>
+      </v-dialog>
 
   </div>
 
@@ -156,6 +181,7 @@ export default {
   },
   data(){
     return {
+      entDetail:false,
       items: [
         {
           color: 'red lighten-2',
@@ -174,7 +200,7 @@ export default {
           icon: 'mdi-airballoon',
           img:'/img/run3.jpg',
           title:'(10.00 - 12.00) Outbound',
-          text:'Tempat: <b>Hotel Grand Dian - Guci</b>'
+          text:'Tempat: <b>Hotel Grand Dian - Guci</b> <br/><table class="mt-2"><tr><td>Game 1</td><td>:</td><td><b>Oper Pingpong</b></td></tr><tr><td>Game 2</td><td>:</td><td><b>Oper Pralon</b></td></tr><tr><td>Game 1</td><td>:</td><td><b>Oper Tepung</b></td></tr><tr><td>Game 1</td><td>:</td><td><b>Bulldozer</b></td></tr></table>'
         },
         {
           color: 'blue lighten-1',
@@ -205,8 +231,10 @@ export default {
           color: 'blue lighten-1',
           icon: 'mdi-guy-fawkes-mask',
           title:'(20.00 - 23.00) Hiburan & Doorprize',
-          img:'/img/run8.jpg',
-          text:'(IQOS, Huawei Band, Anker Soundcor, voucher MAP)'
+          detail:'entertainment',
+          tag:'Item ala 90 an (colorful)',
+          img:'/img/hib1.jpg',
+          text:'<b>Hiburan</b><br/>1. Biduan Dangdut dan Pop<br/>2. Foya Koya<br/><b>Doorprize</b><br/>iQos, Huawei Band, Anker Soundcor, Voucher MAP<br/>Pengumuman pemenang outbound'
         },
         {
           color: 'grey darken-1',
@@ -220,7 +248,7 @@ export default {
           color: 'red lighten-2',
           icon: 'mdi-run',
           title:'(07.00 - 08.00) Senam Pagi',
-          text:'Tempat: <b>Open Space Front Hall Antasena</b>'
+          text:'Tempat: <b>Open Space Front Hall Antasena</b><br/><div class="mt-5"><b>Doorprize</b><br/>Huawei Band, Anker Soundcor, Voucher MAP</div>'
         },  
         {
           color: 'blue lighten-2',
