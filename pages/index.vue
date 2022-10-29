@@ -162,7 +162,7 @@ export default {
           icon: 'mdi-car-outline',
           title:'(08.00) Berangkat',
           img:'/img/run1.jpg',
-          text:'<table><tr><td>Seragam</td><td class="pr-2" ">:</td><td style="font-weight:bold"> jersey outbound</td> </tr><tr><td >Tegal</td><td>:</td style="font-weight:bold"> <td style="font-weight:bold">tegal</tr><tr></td><br/><td>DPC</td><td>:</td> <td style="font-weight:bold">Pekalongan</td></tr></table>'
+          text:'<table><tr><td>Seragam</td><td class="pr-2" ">:</td><td style="font-weight:bold"> Jersey outbound</td> </tr><tr><td >Tegal</td><td>:</td style="font-weight:bold"> <td style="font-weight:bold">Tegal</tr><tr></td><br/><td>DPC</td><td>:</td> <td style="font-weight:bold">Pekalongan</td></tr></table>'
         },
         {
           color: 'purple darken-1',
