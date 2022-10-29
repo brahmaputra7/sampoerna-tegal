@@ -64,7 +64,8 @@
                             dark
                           >
                             <v-card-title class="text-h6">
-                              <div v-if="$vuetify.breakpoints.mobile" style="font-size:0.8em">
+                              <div v-if="$vuetify.breakpoint.smAndDown" style="font-size:0.8em">
+                                {{item.title}}
                               </div>
                               <div v-else>
                                 {{item.title}}
@@ -142,7 +143,7 @@
         <v-card class="pa-5">
           <b>Entertainment</b>
           <img src="/img/run8.jpg" style="width:100%;border-radius:20px"/>
-          <div>1. Biduan Dangdut</div>
+          <div>1. Biduan Dangdut dan Pop</div>
           <div>2. Foya Koya</div>
           <v-divider class="my-5"></v-divider>
           <b>Doorprize</b>
@@ -236,7 +237,7 @@ export default {
           icon: 'mdi-guy-fawkes-mask',
           title:'(20.00 - 23.00) Hiburan & Doorprize',
           detail:'entertainment',
-          tag:'Item ala 90 an (colorful)',
+          tag:'Outfit ala 90 an (colorful)',
           img:'/img/hib1.jpg',
           text:'<b>Hiburan</b><br/>1. Biduan Dangdut dan Pop<br/>2. Foya Koya<br/><b>Doorprize</b><br/>iQos, Huawei Band, Anker Soundcor, Voucher MAP<br/><b>Pengumuman pemenang outbound</b>'
         },
