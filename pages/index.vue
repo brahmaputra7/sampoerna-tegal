@@ -233,6 +233,7 @@ export default {
           color: 'blue lighten-2',
           icon: 'mdi-food',
           title:'(08.00 - 09.00) Breakfast',
+          text:'Tempat: <b>Hall Antasena</b>'
         },   
         {
           color: 'green lighten-2',
