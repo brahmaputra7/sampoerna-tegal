@@ -15,8 +15,7 @@
               </div>
             </v-col>
             <v-col cols="12" md="6">
-              asd
-              <img src="img/title.png" width="50%"  data-aos="flip-left"/>
+              <img src="img/title.png" width="100%" />
             </v-col>
           </v-row>
         </v-container>
@@ -25,9 +24,9 @@
         <v-container>
           <div class="pt-10 d-flex align-center justify-center mb-10" style="flex-flow:column">
             <div class="d-flex justify-center"><h2>OVERVIEW VENUE</h2></div>
-            <div class="pinkLine" data-aos="flip-left"></div>
+            <div class="pinkLine"></div>
           </div>
-          <v-row  data-aos="fade-up">
+          <v-row >
             <v-col cols="6" md="4" v-for="item,index in 6" :key="index">
               <img :src="'/img/ven'+(index+1)+'.jpg'" width="100%" style="border-radius:15px">
             </v-col>
@@ -38,7 +37,7 @@
         <div style="flex-grow:1;max-width:1000px" class="bg2">
           <v-container>
               <div class="pt-10 d-flex align-center justify-center mb-10" style="flex-flow:column">
-                  <div class="d-flex justify-center"  data-aos="flip-left"><h2>Rundown</h2></div>
+                  <div class="d-flex justify-center" ><h2>Rundown</h2></div>
                   <div class="pinkLine"></div>
                 </div>
 
@@ -61,7 +60,7 @@
                         >
                           <v-card
                             :color="item.color"
-                            data-aos="fade-up"
+                        
                             dark
                           >
                             <v-card-title class="text-h6">
