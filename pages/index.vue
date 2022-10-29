@@ -235,11 +235,11 @@ export default {
         {
           color: 'blue lighten-1',
           icon: 'mdi-guy-fawkes-mask',
-          title:'(20.00 - 23.00) Hiburan & Doorprize',
+          title:'(20.00 - 23.00) Entertainment & Doorprize',
           detail:'entertainment',
           tag:'Outfit ala 90 an (colorful)',
           img:'/img/hib1.jpg',
-          text:'<b>Hiburan</b><br/>1. Biduan Dangdut dan Pop<br/>2. Foya Koya<br/><b>Doorprize</b><br/>iQos, Huawei Band, Anker Soundcor, Voucher MAP<br/><b>Pengumuman pemenang outbound</b>'
+          text:'<b>Entertainment</b><br/>1. Biduan Dangdut dan Pop<br/>2. Foya Koya<br/><b>Doorprize</b><br/>iQos, Huawei Band, Anker Soundcor, Voucher MAP<br/><b>Pengumuman pemenang outbound</b>'
         },
         {
           color: 'grey darken-1',
