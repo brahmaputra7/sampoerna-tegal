@@ -15,7 +15,7 @@
               </div>
             </v-col>
             <v-col cols="12" md="6">
-              <img src="/img/title.png" width="100%"  data-aos="flip-left"/>
+              <img src="img/title.png" width="100%"  data-aos="flip-left"/>
             </v-col>
           </v-row>
         </v-container>
