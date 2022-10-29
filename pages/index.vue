@@ -204,7 +204,7 @@ export default {
           icon: 'mdi-airballoon',
           img:'/img/run3.jpg',
           title:'(10.00 - 12.00) Outbound',
-          text:'Tempat: <b>Hotel Grand Dian - Guci</b> <br/><table class="mt-2"><tr><td>Game 1</td><td>:</td><td><b>Oper Pingpong</b></td></tr><tr><td>Game 2</td><td>:</td><td><b>Oper Pralon</b></td></tr><tr><td>Game 1</td><td>:</td><td><b>Oper Tepung</b></td></tr><tr><td>Game 1</td><td>:</td><td><b>Bulldozer</b></td></tr></table>'
+          text:'Tempat: <b>Hotel Grand Dian - Guci</b> <br/><table class="mt-2"><tr><td>Game 1</td><td>:</td><td><b>Oper Pingpong</b></td></tr><tr><td>Game 2</td><td>:</td><td><b>Oper Pralon</b></td></tr><tr><td>Game 3</td><td>:</td><td><b>Oper Tepung</b></td></tr><tr><td>Game 4</td><td>:</td><td><b>Bulldozer</b></td></tr></table>'
         },
         {
           color: 'blue lighten-1',
