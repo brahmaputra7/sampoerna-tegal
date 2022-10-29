@@ -87,6 +87,50 @@
             </v-container>
         </div>
       </div>
+      <div class="d-flex justify-center" >
+        <div style="flex-grow:1;max-width:1000px" class="bg2">
+          <v-container>
+
+                <v-row>
+                  <v-col cols="12" class="text-center">
+                    <v-chip class="pink white--text">Minggu, 6 November 2022</v-chip>
+                  </v-col>
+                  <v-col cols="12">
+
+                    <v-timeline
+                        align-top
+                        :dense="$vuetify.breakpoint.smAndDown"
+                      >
+                        <v-timeline-item
+                          v-for="(item, i) in items2"
+                          :key="i"
+                          :color="item.color"
+                          :icon="item.icon"
+                          fill-dot
+                        >
+                          <v-card
+                            :color="item.color"
+                        
+                            dark
+                          >
+                            <v-card-title class="text-h6">
+                              {{item.title}}
+                            </v-card-title>
+                            <v-card-text class="white text--primary pt-5" v-if="item.text">
+                              <div>
+                                <img v-if="item.img" :src="item.img" width="250px"/>
+                              </div>
+                              <div v-html="item.text"></div>
+                    
+                            </v-card-text>
+                          </v-card>
+                        </v-timeline-item>
+                      </v-timeline>
+                  </v-col>
+                </v-row>
+            </v-container>
+        </div>
+      </div>
 
   </div>
 
@@ -176,6 +220,30 @@ export default {
           icon: 'mdi-bunk-bed',
           title:'(23.00) Istirahat',
         },
+      ],
+      
+      items2: [
+        {
+          color: 'red lighten-2',
+          icon: 'mdi-run',
+          title:'(07.00 - 08.00) Senam Pagi',
+          text:'Tempat: <b>Open Space Front Hall Antasena</b>'
+        },  
+        {
+          color: 'blue lighten-2',
+          icon: 'mdi-food',
+          title:'(08.00 - 09.00) Breakfast',
+        },   
+        {
+          color: 'green lighten-2',
+          icon: 'mdi-check-network',
+          title:'(09.00 - 10.00) Prepare Pulang',
+        },    
+        {
+          color: 'black',
+          icon: 'mdi-alert-circle-check',
+          title:'(10.00) Check out',
+        }
       ]
     }
     
