@@ -230,6 +230,7 @@ export default {
           icon: 'mdi-spoon-sugar',
           img:'/img/run7.jpg',
           title:'(19.00 - 20.00) Gala Dinner',
+          text:'Dress code: Outfit ala 90 an (colorful)'
         },
         {
           color: 'blue lighten-1',
