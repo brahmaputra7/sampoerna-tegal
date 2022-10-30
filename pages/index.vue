@@ -33,6 +33,33 @@
           </v-row>
         </v-container>
       </div>
+      <div>
+        <v-container>
+          <v-row>
+            <v-col cols="12">
+                <div class="pt-10 d-flex align-center justify-center mb-10" style="flex-flow:column">
+                  <div class="d-flex justify-center" ><h2>Preparation</h2></div>
+                  <div class="pinkLine"></div>
+                </div>
+                <v-container>
+                  <v-row>
+                    <v-col cols="12" class="d-flex justify-center">
+                      <div style="width:100%;max-width:500px;border-radius:15px;" class="elevation-5 pa-5 ">
+                        <div><v-icon class="green--text mr-3">mdi-check-circle</v-icon>Outfit 90an (colorful)</div>
+                        <div><v-icon class="green--text mr-3">mdi-check-circle</v-icon>Baju renang</div>
+                        <div><v-icon class="green--text mr-3">mdi-check-circle</v-icon>Baju olah raga</div>
+                        <div><v-icon class="green--text mr-3">mdi-check-circle</v-icon>Jaket</div>
+                        <div><v-icon class="green--text mr-3">mdi-check-circle</v-icon>Obat2 pribadi</div>
+                        <div><v-icon class="green--text mr-3">mdi-check-circle</v-icon>Alat ibadah</div>
+                      </div>
+                    </v-col>
+                  </v-row>
+                </v-container>
+
+            </v-col>
+          </v-row>
+        </v-container>
+      </div>
       <div class="d-flex justify-center" >
         <div style="flex-grow:1;max-width:1000px" class="bg2">
           <v-container>
